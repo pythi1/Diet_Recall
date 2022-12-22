@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group >
+        <item
+            android:id="@+id/nav_check"
+            android:icon="@drawable/syringe_icon"
+            android:title="Disease Checker" />
+
+        <item
+            android:id="@+id/nav_hosp"
+            android:icon="@drawable/hospital_icon"
+            android:title="Nearby Hospitals" />
+
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/call_icon"
+            android:title="SOS Call" />
+
+        <item
+            android:id="@+id/nav_bmicalculate"
+            android:icon="@drawable/share_icon"
+            android:title="BMI Calculator" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share_icon"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="LogOut" />
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+
+        </menu>
+    </item>
+</menu>
